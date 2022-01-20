@@ -1,0 +1,170 @@
+body{
+    background-color: #FFD700;
+    color: #ffff;
+}
+
+.general-trade-image{
+    max-width: 1152px;
+    width: 100%;
+    height: 620px;
+}
+
+.container-image{
+    text-align: center;
+}
+
+.error{
+    margin-left: 50px;
+}
+
+.servis-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us{
+    font-size: 60px;
+    background-color: #000000;
+    padding: 15px;
+}
+
+
+.about-us-container,.servis-container,.contacks-container{
+    display: flex;
+    justify-content: center;
+}
+
+.people-image{
+    max-width: 1344px;
+    width: 100%;
+}
+
+.about-us-text-container{
+    display: flex;
+    justify-content: center;
+}
+
+.people-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.servis{
+    font-size: 60px;
+    padding: 16px;
+    background-color: #000000;
+}
+
+.servis-list-contaier{
+    display: flex;
+    justify-content: space-around;
+}
+
+.servis-list-container-text-header{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.image-servis{
+    display: flex;
+    margin: 0 auto;
+}
+
+.Markings{
+    margin-left: 200px;
+}
+
+.contacts{
+    font-size: 60px;
+    padding: 16px;
+    background-color: #000000;
+}
+
+.list-contacts{
+    list-style: none;
+   text-align: center;
+}
+
+@media only screen and (max-width:1440px) {
+  .servis-list-container-text{
+      font-size: 13px;
+  }
+
+  .people-image{
+      width: 70%;
+  }
+
+}
+
+@media only screen and (max-width:1152px) {
+    .servis-list-container-text{
+        font-size: 10px;
+    }
+    
+    .about-us-text{
+        font-size: 13px;
+    }
+
+    .image-servis{
+        width: 100%;
+        max-width: 140px;
+    }  
+
+    .Markings{
+        margin-left: 155px;
+    }
+
+    .general-trade-image{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .general-trade-image{
+        height: 460px;
+    }
+
+    .about-us-text{
+        font-size: 9px;
+    }
+
+    .servis-list-container-text{
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .servis-list-container-text-header{
+        font-size: 22px;
+    }
+
+    .error{
+        margin-left: 25px;
+    }
+
+    .data-transfer{
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .servis-list-contaier{
+        display: block;
+    }
+
+    .general-trade-image{
+        height: 250px;
+    }
+
+    .Markings,.data-transfer,.error{
+        margin-left: 0px;
+    }
+
+    .people-image{
+        width: 98%;
+    }
+}
+
+
